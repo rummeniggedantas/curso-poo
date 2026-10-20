@@ -28,7 +28,7 @@ static listar(alunos) {
   tabListar.classList.add('active');
   tabCadastrar.classList.remove('active');
   let lista = '<table>';
-  lista += '<tr><th>Nome</th><th>Média</th><th>Situação</th></tr>';
+  lista += '<tr><th>Nome</th><th>Nota 1</th><th>Média</th><th>Situação</th></tr>';
   for (let i = 0; i < alunos.length; i++) {
     lista += '<tr>';
     lista += '<td>' + alunos[i].nome + '</td>';
